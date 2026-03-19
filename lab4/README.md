@@ -19,3 +19,10 @@ Liczba warstw: 3 (wartość SIZE różna od 0B)
 
 #### Uruchamianie kontenera następuje poleceniem:
 `docker run --rm -d -p 8888:80 --name=web100 local/web100:v1`
+
+#### Dodanie obrazu na docker hub
+```
+docker tag local/web100:v1 szymonk44/laby:web100-v1
+docker push szymonk44/laby:web100-v1
+```
+[Link do repozytorium](https://hub.docker.com/repository/docker/szymonk44/laby/general)
