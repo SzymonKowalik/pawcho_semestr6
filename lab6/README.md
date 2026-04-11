@@ -29,7 +29,7 @@ branch 'main' set up to track 'origin/main'.
 
 
 #### Modyfikacja pliku Dockerfile
-W pierwszej linii pliku dodano instrukcję, która sprawia że plik pełni rolę frontendu dla silnika Buildkit. Następnie utworzono etab budowy, niezbędny do klonowania plików z serwera github.
+W pierwszej linii pliku dodano instrukcję, która sprawia że plik pełni rolę frontendu dla silnika Buildkit. Następnie utworzono etap budowy, niezbędny do klonowania plików z serwera github.
 ```
 # syntax=docker/dockerfile:1
 
@@ -45,7 +45,7 @@ RUN mkdir -p -m 0700 ~/.ssh && ssh-keyscan github.com >> ~/.ssh/known_hosts
 # Pobranie repozytorium za pomocą SSH
 RUN --mount=type=ssh git clone git@github.com:SzymonKowalik/pawcho6.git /repo
 ```
-Jako źródło obrazu w etapie 1, wykorzystano obraz pobrany na etapie 0
+Jako źródło obrazu w etapie 1 wykorzystano obraz pobrany na etapie 0
 ```
 FROM scratch AS build
 
