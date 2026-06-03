@@ -3,5 +3,7 @@
 - [lab 5](https://github.com/SzymonKowalik/pawcho_semestr6/tree/main/lab5)
 - [lab 6](https://github.com/SzymonKowalik/pawcho_semestr6/tree/main/lab6)
 - [zadanie 1 nieobowiazkowe](https://github.com/SzymonKowalik/pawcho_semestr6/tree/main/zadanie_1_nieobowiazkowe)
+- [lab 12](https://github.com/SzymonKowalik/pawcho_semestr6/tree/main/lab12)
+
 ### Docker hub
 - [Repozytorium](https://hub.docker.com/r/szymonk44/laby)
